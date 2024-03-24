@@ -1,7 +1,16 @@
 import 'package:flutter/material.dart';
 
 void main (){
-  runApp(Text('Hello world ', textDirection: TextDirection.ltr,));
+  runApp(const Kauhik());
 }
 
-// Matrail App
+class Kauhik extends StatelessWidget {
+  const Kauhik ({super.key});
+  @override
+
+Widget build (BuildContext context){
+  return const Text(
+    'hello ',textDirection: TextDirection.ltr,
+  );
+}
+}
